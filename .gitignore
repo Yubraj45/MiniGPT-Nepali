@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Kaggle
+.kaggle/
+
+# Dataset files (reproducible through preparation scripts)
+data/raw/
+data/processed/
+
+# Training checkpoints
+checkpoints/
+checkpoints_dropout/
+checkpoints_expanded/latest_checkpoint.pth
+checkpoints_expanded_phase2/
